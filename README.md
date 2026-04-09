@@ -1,10 +1,15 @@
 # Student Exam Score Predictor 
 
-A Machine Learning regression project designed to predict students' final exam scores based on various academic and behavioral features. The model achieves high accuracy by applying advanced feature engineering, data transformations, and statistical pruning.
+This repository contains an individual Machine Learning project focused on **Linear Regression analysis**. The primary objective is to perform comprehensive Exploratory Data Analysis (EDA), build a robust predictive model from a unique training dataset, and generate target predictions for a blind validation set. 
+
+The project tackles standard real-world data challenges, requiring a complete end-to-end workflow:
+*   **Data Cleaning:** Identifying and handling missing values, potential outliers, and structural noise.
+*   **Feature Engineering & Selection:** Exploring variables, applying necessary mathematical transformations, and selecting the optimal features for the model.
+*   **Model Training & Validation:** Training a linear regression model, formally documenting its mathematical representation, evaluating its performance on the training data, and ultimately applying it to predict the validation dataset.
 
 ##  Project Highlights
 * **High Accuracy:** Achieved an **R² score of 0.9215** on test data.
-* **Robustness:** Demonstrated excellent generalization with a Train R² of 0.9247 (no overfitting).
+* **Robustness:** high generalization with a Train R² of 0.9247 (no overfitting).
 * **Analytical Approach:** Leveraged log transformations for skewed data and polynomial features to capture non-linear relationships (e.g., the diminishing returns of sleep).
 
 ##  Tech Stack
